@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './components/header';
 import reportWebVitals from './reportWebVitals';
+import LocalStore from './components/locatStores';
+import Footer from './components/Footer'
+import DazedDeals from './components/DazedDeals'
+import FeaturedFlower from './components/FeaturedFlower'
+import Welcome from './components/Welcome'
+import MediaInsight from './components/MediaInsight'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* this is where all the components will be imported and rendered in */}
+    <Header />
+    <LocalStore/>
+    <DazedDeals/>
+    <FeaturedFlower/>
+    <Welcome/>
+    <MediaInsight/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
