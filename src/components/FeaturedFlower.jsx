@@ -3,59 +3,19 @@ import '../styles/featuredFlowerStyles.css'
 function FeaturedFlower () {
   return (
     <div className='featuredFlower'>
-      <div>
-        <p>View All <span>>></span></p>
-      </div>
-
-      <div className='flower_intro'>
-        <h1>Featured flower you can buy today.</h1>
-        <p>Order Online, Pickup in-stores, Have your high delivered, get dazed today.</p>
-      </div>
-
-      <div className='flower_1'>
-          <div>
-            <p>IMG</p>
-            <p>Afghan Kush</p>
+      <div className="grid">
+      <div className='featuredFlower_header'>
+          <div className="title">
+            <h2 class="section_title">Featured flowers you can buy today.</h2>
+            <p>We have found some dispensaries near you worth checking out. Don't forget to use code "dazed" at checkout.</p>
           </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Blackberry Kush</p>
-          </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Sour Diesel</p>
-          </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Skittlez</p>
-          </div>
-      </div>
-
-      <div className='flower_2'>
-          <div>
-            <p>IMG</p>
-            <p>Jesus Beard</p>
-          </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Durban Poison</p>
-          </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Pineapple Express</p>
-          </div>
-
-          <div>
-            <p>IMG</p>
-            <p>Girlscout cookies</p>
+          <div className="quick_link">
+            <p>View All</p>
+            <img src="/img/arrows.svg" alt="" />
           </div>
         </div>
       </div>
+    </div>
   )
 }
 

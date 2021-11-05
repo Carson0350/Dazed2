@@ -5,93 +5,126 @@ function LocalStore () {
 
   return(
     <div className='localStore_main'>
-      <div className='localStore_header'>
-          <h1>Your local dispensaried</h1>
-          <p>Order Online, Pickup in-stores, Have your high delivered, get dazed</p>
-            <p>View All <span>>></span></p>
-      </div>
-
-      <div className='card_container'>
-          <div className='localStore_card'>
-            <p className='tag'>REC</p>
-            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
-
-            <div>
-              <p className='desp_name'>Native Roots</p>
-              <p className='star_rating'></p>
-              <p className='review_number'>(44)</p>
-            </div>
-
-            <div className='store_info'>
-              <p>200+</p>
-              <p>Products</p>
-
-              <p>9am - 10pm</p>
-              <p>Store Hours</p>
-
-              <p>2.6</p>
-              <p>Miles Away</p>
-            </div>
+      <div className="grid">
+        <div className='localStore_header'>
+          <div className="title">
+            <h2 class="section_title">Your local dispensaried</h2>
+            <p>We have found some dispensaries near you worth checking out. Don't forget to use code "dazed" at checkout.</p>
           </div>
-
-          <div className='localStore_card'>
-          <div>
-            <p className='tag'>REC</p>
-            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
-          </div>
-
-          <div>
-            <p className='desp_name'>Black Cap</p>
-            <p className='star_rating'></p>
-            <p className='review_number'>(31)</p>
-          </div>
-
-          <div className='store_info'>
-            <p>175+</p>
-            <p>Products</p>
-
-            <p>9am - 10pm</p>
-            <p>Store Hours</p>
-
-            <p>6</p>
-            <p>Miles Away</p>
+          <div className="quick_link">
+            <p>View All</p>
+            <img src="/img/arrows.svg" alt="" />
           </div>
         </div>
-
 
         <div className='localStore_card'>
-          <div>
-            <p className='tag'>REC</p>
-            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
+            <div className="card_top">
+              <p className='tag'>REC</p>
+              <div className="dispo_img"></div>
+            </div>
+
+            <div className="card_info">
+              <div className="title">
+                <h2>Native Roots</h2>
+                <div className="rating">
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star_border.svg" alt="" />
+                  <p className="numbers">(24)</p>
+                </div>
+                <div className="info">
+                  <div className="item">
+                    <p className="value">200 +</p>
+                    <p className="title">Products</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">10 PM</p>
+                    <p className="title">Store Hours</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">2.6</p>
+                    <p className="title">Miles Away</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div className='localStore_card'>
+            <div className="card_top">
+              <p className='tag'>REC</p>
+              <div className="dispo_img"></div>
+            </div>
+
+            <div className="card_info">
+              <div className="title">
+                <h2>Native Roots</h2>
+                <div className="rating">
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star_border.svg" alt="" />
+                  <p className="numbers">(24)</p>
+                </div>
+                <div className="info">
+                  <div className="item">
+                    <p className="value">200 +</p>
+                    <p className="title">Products</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">10 PM</p>
+                    <p className="title">Store Hours</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">2.6</p>
+                    <p className="title">Miles Away</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-          <div>
-            <p className='desp_name'>Shine Cannabis</p>
-            <p className='star_rating'></p>
-            <p className='review_number'>(24)</p>
-          </div>
+        <div className='localStore_card'>
+            <div className="card_top">
+              <p className='tag'>REC</p>
+              <div className="dispo_img"></div>
+            </div>
 
-          <div className='store_info'>
-            <p>200+</p>
-            <p>Products</p>
+            <div className="card_info">
+              <div className="title">
+                <h2>Native Roots</h2>
+                <div className="rating">
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star-fill.svg" alt="" />
+                  <img src="/img/star_border.svg" alt="" />
+                  <p className="numbers">(24)</p>
+                </div>
+                <div className="info">
+                  <div className="item">
+                    <p className="value">200 +</p>
+                    <p className="title">Products</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">10 PM</p>
+                    <p className="title">Store Hours</p>
+                  </div>
+                  <div className="item">
+                    <p className="value">2.6</p>
+                    <p className="title">Miles Away</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <p>9am - 10pm</p>
-            <p>Store Hours</p>
-
-            <p>2.6</p>
-            <p>Miles Away</p>
-          </div>
         </div>
       </div>
-
-        <div className='localStore_deals'>
-            <p>Explore exclusive dazed deals in your area!</p>
-            <div className='button_primary'>View Deals</div>
-            <div>
-              <p>Another Image</p>
-            </div>
-        </div>
-
     </div>
   )
 }

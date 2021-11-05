@@ -14,8 +14,8 @@ ReactDOM.render(
   <React.StrictMode>
     {/* this is where all the components will be imported and rendered in */}
     <Header />
-    <LocalStore/>
-    {/* <DazedDeals/> */}
+    <LocalStore/> 
+    <DazedDeals/> 
     <FeaturedFlower/>
     <Welcome/>
     <MediaInsight/>

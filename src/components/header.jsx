@@ -3,7 +3,7 @@ import '../styles/header.css'
 function Header() {
   return (
     <div className="header_container">
-
+    <div className="grid">
       <div className='header_top'>
         <div className="links">
           <img src="/img/dazed-logo.svg" alt="dazedlogo" class="logo"/>
@@ -25,8 +25,9 @@ function Header() {
         </input>
         <button>Search</button>
       </div>
+    </div>
 
-      <div className="header_bg-img"></div>
+    <div className="header_bg-img"></div>
       <img src="/img/z.svg" alt="" class="z" />
     </div>
   );
