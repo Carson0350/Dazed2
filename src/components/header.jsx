@@ -7,7 +7,6 @@ function Header() {
       <div className='header_top'>
         <div className="links">
           <img src="/img/dazed-logo.svg" alt="dazedlogo" class="logo"/>
-          <p>Dazed</p>
           <p>Dispensaries</p>
           <p>Deals</p>
           <p>Strains</p>
