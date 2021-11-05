@@ -1,27 +1,32 @@
-.localStore_main {
+/* .localStore_main {
   display: grid;
   grid-template-columns:repeat(12,1fr);
   grid-template-rows: repeat(3, 1fr);
-}
+} */
 
-.localStore_header {
-  grid-column: 1/13;
-}
 
-.localStore_card_1 {
-  grid-column: 2/4;
-  background-color: blue;
-}
 
-.localStore_card_2 {
+/* .localStore_card {
+  grid-column: 2fr;
+  border-radius: 8px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
+} */
+
+/* .localStore_card_1 .despoImg {
+  background-image: url('../../public/img/header-img.png');
+  display: inline-block;
+  height: 200px;
+} */
+
+/* .localStore_card_2 {
   grid-column: 5/7;
-  background-color: pink;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
 }
 
 .localStore_card_3 {
   grid-column: 8/10;
-  background-color: green;
-}
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.08);
+} */
 
 .localStore_deals{
   grid-row: 3/3;

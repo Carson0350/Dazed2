@@ -6,19 +6,15 @@ function LocalStore () {
   return(
     <div className='localStore_main'>
       <div className='localStore_header'>
-        <div className='localStore_intro'>
           <h1>Your local dispensaried</h1>
           <p>Order Online, Pickup in-stores, Have your high delivered, get dazed</p>
-        </div>
-
-        <div>
-          <p>View All <span>>></span></p>
-        </div>
+            <p>View All <span>>></span></p>
       </div>
 
-          <div className='localStore_card_1'>
-            <p>REC</p>
-            <p>This will be an image</p>
+      <div className='card_container'>
+          <div className='localStore_card'>
+            <p className='tag'>REC</p>
+            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
 
             <div>
               <p className='desp_name'>Native Roots</p>
@@ -26,7 +22,7 @@ function LocalStore () {
               <p className='review_number'>(44)</p>
             </div>
 
-            <div>
+            <div className='store_info'>
               <p>200+</p>
               <p>Products</p>
 
@@ -36,13 +32,12 @@ function LocalStore () {
               <p>2.6</p>
               <p>Miles Away</p>
             </div>
-        </div>
+          </div>
 
-
-        <div className='localStore_card_2'>
+          <div className='localStore_card'>
           <div>
-            <p>REC</p>
-            <p>This will be an image</p>
+            <p className='tag'>REC</p>
+            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
           </div>
 
           <div>
@@ -51,7 +46,7 @@ function LocalStore () {
             <p className='review_number'>(31)</p>
           </div>
 
-          <div>
+          <div className='store_info'>
             <p>175+</p>
             <p>Products</p>
 
@@ -64,10 +59,10 @@ function LocalStore () {
         </div>
 
 
-        <div className='localStore_card_3'>
+        <div className='localStore_card'>
           <div>
-            <p>REC</p>
-            <p>This will be an image</p>
+            <p className='tag'>REC</p>
+            <img src="/img/header-img.png" alt="dazd" className="despoImg"/>
           </div>
 
           <div>
@@ -76,7 +71,7 @@ function LocalStore () {
             <p className='review_number'>(24)</p>
           </div>
 
-          <div>
+          <div className='store_info'>
             <p>200+</p>
             <p>Products</p>
 
@@ -87,6 +82,7 @@ function LocalStore () {
             <p>Miles Away</p>
           </div>
         </div>
+      </div>
 
         <div className='localStore_deals'>
             <p>Explore exclusive dazed deals in your area!</p>
