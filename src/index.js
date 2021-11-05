@@ -15,7 +15,7 @@ ReactDOM.render(
     {/* this is where all the components will be imported and rendered in */}
     <Header />
     <LocalStore/>
-    <DazedDeals/>
+    {/* <DazedDeals/> */}
     <FeaturedFlower/>
     <Welcome/>
     <MediaInsight/>

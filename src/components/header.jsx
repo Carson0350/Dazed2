@@ -2,32 +2,23 @@ import '../styles/header.css'
 
 function Header() {
   return (
-    <div className="Header">
-      <div>
-        <header className="App-header">
-          <div>
-            <p>Dazed</p>
-          </div>
-          <div>
-            <p>Dispensaries</p>
-            <p>Deals</p>
-            <p>Strains</p>
-            <p>Priduct</p>
-          </div>
-        </header>
-      </div>
+    <div className="header_main">
 
-
-      <div>
+      <div className='header_top'>
+        <p>Dazed</p>
+        <p>Dispensaries</p>
+        <p>Deals</p>
+        <p>Strains</p>
+        <p>Priduct</p>
         <button>Login</button>
       </div>
 
-      <div>
+      <div className='header_slogan'>
         <p>Find weed, get dazed, today</p>
       </div>
-      <div>
-        {/* <label for="site-search">Search the site:</label> */}
-        <input placeholder='Search despensaries, products,strains and more' type="search" id="site-search"></input>
+
+      <div className='header_search'>
+        <input className='header_search_input' placeholder='Search despensaries, products,strains and more' type="search"></input>
         <button>Search</button>
       </div>
     </div>
