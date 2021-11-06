@@ -446,4 +446,61 @@ p.highlight {
 .featuredFlower_header .quick_link > img {
     margin-left: 8px;
 }
-  
+
+
+/* ----------------------------welcome --------------------- */
+
+.welcome_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 48px;
+    grid-column: span 12;
+    padding-left: 5%;
+}
+
+.welcome_message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 48px;
+    grid-column: span 12;
+    gap: 22px;
+}
+
+.welcome_card {
+    grid-column: span 4;
+    padding-left: 70px;
+}
+
+.welcome_card .img_continer {
+    display: flex;
+}
+
+.welcome_card > img {
+    left: 140px;
+}
+
+/* Media insight */
+
+.media_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 48px;
+    grid-column: span 12;
+    padding: 30px;
+    background-color: #FAFAFA;
+}
+
+.gray_box {
+    position: relative;
+}
+
+.gray_box p {
+    background-color: green;
+    width: 50vw;
+}
