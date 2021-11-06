@@ -447,6 +447,11 @@ p.highlight {
     margin-left: 8px;
 }
 
+.flower_card {
+    grid-column: span 2;
+    box-shadow: var(--shadow);
+}
+
 
 /* ----------------------------welcome --------------------- */
 
@@ -455,7 +460,17 @@ p.highlight {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 48px;
+    padding-bottom: 200px;
+    grid-column: span 12;
+    padding-left: 5%;
+}
+
+.welcome2_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
     grid-column: span 12;
     padding-left: 5%;
 }
@@ -492,15 +507,25 @@ p.highlight {
     align-items: flex-end;
     padding-bottom: 48px;
     grid-column: span 12;
-    padding: 30px;
+    padding: 100px;
     background-color: #FAFAFA;
+}
+
+.media_main .section_title {
+    position: absolute;
+    top: -50px;
+}
+
+.media_main p {
+    grid-column: span 8;
 }
 
 .gray_box {
     position: relative;
 }
 
-.gray_box p {
-    background-color: green;
-    width: 50vw;
+.gray_box img {
+    position: absolute;
+    right: -100px;
+    top: -200px;
 }

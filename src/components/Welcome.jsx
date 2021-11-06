@@ -6,7 +6,7 @@ function Welcome() {
     <div className='welcome_main'>
       <grid className='grid'>
 
-        <div className='welcome_main'>
+        <div className='welcome2_main'>
           <div className="title">
             <h2 class="section_title">Welcome to dazed</h2>
             <p>Dazed is your one stop shop for access to top of the line barnds, deals , and delivery</p>
