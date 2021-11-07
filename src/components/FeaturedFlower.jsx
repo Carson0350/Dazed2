@@ -22,11 +22,75 @@ function FeaturedFlower () {
       <div className="grid">
 
         <div className='flower_card'>
-          <img src="img/weed-1.png" alt=""/>
-          <p>Afghan Kush</p>
-          <button>Indica</button>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
         </div>
 
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div className="grid">
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
+
+        <div className='flower_card'>
+          <div className="flower_card_content">
+            <img src="img/weed-1.png" alt=""/>
+            <p>Afghan Kush</p>
+            <button>Indica</button>
+          </div>
+        </div>
       </div>
     </div>
   )
